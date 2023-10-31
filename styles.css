@@ -1,1 +1,23 @@
 /*  your css code here. If applicable */
+body{
+	background:#f8f8f8;
+}
+.book-library{
+	background:#ffffff;
+	text-align:center;
+}
+.book{
+	display:flex;
+	flex-direction:column;
+	align-items:center
+}
+.title{
+	align-self:baseline;
+}
+.author{
+	align-self:baseline;
+	color:#777777;
+}
+.price{
+	background:#2ecc71;
+}
